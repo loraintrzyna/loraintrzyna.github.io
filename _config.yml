@@ -1,0 +1,14 @@
+# Site settings
+title: Lorain Trzyna
+email: cordingleyadam19+loraintrzyna@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
